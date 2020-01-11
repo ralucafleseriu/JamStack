@@ -1,6 +1,6 @@
 // pages/_app.js
 import App from 'next/app'
-import Layout from '../components/layout.js'
+import Layout from '../components/Layout.js'
 import cartcontext from '../components/cartContext';
 
 export default class MyApp extends App {

@@ -1,7 +1,7 @@
 // pages/products/[id].js
 import fetch from 'isomorphic-unfetch';
-import ProductItem from '../../components/ProductItem'
-import Layout from '../../components/Layout'
+import ProductItem from '../../components/ProductItem';
+
 const Productitem = props => {
   return (
     <ProductItem product={props.product} />
