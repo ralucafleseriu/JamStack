@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -122,7 +122,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_cartContext__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/cartContext */ "./components/cartContext.js");
-var _jsxFileName = "C:\\_Work\\nextjs-shopping-cart\\pages\\cart.js";
+var _jsxFileName = "C:\\_Work\\nextjs-shopping-cart\\JamStack\\pages\\cart.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 // pages/cart.js
@@ -345,14 +345,14 @@ const Cart = () => {
 
 /***/ }),
 
-/***/ 6:
+/***/ 5:
 /*!*****************************!*\
   !*** multi ./pages/cart.js ***!
   \*****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\_Work\nextjs-shopping-cart\pages\cart.js */"./pages/cart.js");
+module.exports = __webpack_require__(/*! C:\_Work\nextjs-shopping-cart\JamStack\pages\cart.js */"./pages/cart.js");
 
 
 /***/ }),

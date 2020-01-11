@@ -11,7 +11,7 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\_Work\\nextjs-shopping-cart\\components\\Footer.js";
+var _jsxFileName = "C:\\_Work\\nextjs-shopping-cart\\JamStack\\components\\Footer.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -106,84 +106,9 @@ var Footer = function Footer() {
 
 /***/ }),
 
-/***/ "./components/Navbar.js":
+/***/ "./components/Layout.js":
 /*!******************************!*\
-  !*** ./components/Navbar.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _cartContext_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./cartContext.js */ "./components/cartContext.js");
-var _jsxFileName = "C:\\_Work\\nextjs-shopping-cart\\components\\Navbar.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-// components/Navbar.js
-
-
-
-
-var Navbar = function Navbar(props) {
-  var _useContext = Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_cartContext_js__WEBPACK_IMPORTED_MODULE_1__["default"]),
-      cart = _useContext.cart;
-
-  return __jsx("nav", {
-    className: "navbar navbar-light bg-light",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, __jsx("a", {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, "Shoppr")), __jsx("a", {
-    href: "/cart",
-    className: "btn btn-outline-success my-2 my-sm-0",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, "Cart ", cart.length));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Navbar);
-
-/***/ }),
-
-/***/ "./components/cartContext.js":
-/*!***********************************!*\
-  !*** ./components/cartContext.js ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-var CartContext = Object(react__WEBPACK_IMPORTED_MODULE_0__["createContext"])();
-/* harmony default export */ __webpack_exports__["default"] = (CartContext);
-
-/***/ }),
-
-/***/ "./components/layout.js":
-/*!******************************!*\
-  !*** ./components/layout.js ***!
+  !*** ./components/Layout.js ***!
   \******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -196,7 +121,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Navbar_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navbar.js */ "./components/Navbar.js");
 /* harmony import */ var _Footer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer.js */ "./components/Footer.js");
-var _jsxFileName = "C:\\_Work\\nextjs-shopping-cart\\components\\layout.js";
+var _jsxFileName = "C:\\_Work\\nextjs-shopping-cart\\JamStack\\components\\Layout.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 // components/Layout.js
 
@@ -264,6 +189,81 @@ function Layout(props) {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
+
+/***/ }),
+
+/***/ "./components/Navbar.js":
+/*!******************************!*\
+  !*** ./components/Navbar.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _cartContext_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./cartContext.js */ "./components/cartContext.js");
+var _jsxFileName = "C:\\_Work\\nextjs-shopping-cart\\JamStack\\components\\Navbar.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+// components/Navbar.js
+
+
+
+
+var Navbar = function Navbar(props) {
+  var _useContext = Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_cartContext_js__WEBPACK_IMPORTED_MODULE_1__["default"]),
+      cart = _useContext.cart;
+
+  return __jsx("nav", {
+    className: "navbar navbar-light bg-light",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, __jsx("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "Shoppr")), __jsx("a", {
+    href: "/cart",
+    className: "btn btn-outline-success my-2 my-sm-0",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "Cart ", cart.length));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Navbar);
+
+/***/ }),
+
+/***/ "./components/cartContext.js":
+/*!***********************************!*\
+  !*** ./components/cartContext.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+var CartContext = Object(react__WEBPACK_IMPORTED_MODULE_0__["createContext"])();
+/* harmony default export */ __webpack_exports__["default"] = (CartContext);
 
 /***/ }),
 
@@ -8636,7 +8636,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_10__);
 /* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! next/app */ "./node_modules/next/app.js");
 /* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(next_app__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _components_layout_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/layout.js */ "./components/layout.js");
+/* harmony import */ var _components_Layout_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/Layout.js */ "./components/Layout.js");
 /* harmony import */ var _components_cartContext__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/cartContext */ "./components/cartContext.js");
 
 
@@ -8648,7 +8648,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\_Work\\nextjs-shopping-cart\\pages\\_app.js";
+var _jsxFileName = "C:\\_Work\\nextjs-shopping-cart\\JamStack\\pages\\_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement;
 // pages/_app.js
@@ -8728,7 +8728,7 @@ function (_App) {
           lineNumber: 41
         },
         __self: this
-      }, __jsx(_components_layout_js__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      }, __jsx(_components_Layout_js__WEBPACK_IMPORTED_MODULE_12__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 42

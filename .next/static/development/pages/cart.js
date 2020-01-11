@@ -17,10 +17,10 @@ var CartContext = Object(react__WEBPACK_IMPORTED_MODULE_0__["createContext"])();
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcart&absolutePagePath=C%3A%5C_Work%5Cnextjs-shopping-cart%5Cpages%5Ccart.js!./":
-/*!**********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcart&absolutePagePath=C%3A%5C_Work%5Cnextjs-shopping-cart%5Cpages%5Ccart.js ***!
-  \**********************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcart&absolutePagePath=C%3A%5C_Work%5Cnextjs-shopping-cart%5CJamStack%5Cpages%5Ccart.js!./":
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcart&absolutePagePath=C%3A%5C_Work%5Cnextjs-shopping-cart%5CJamStack%5Cpages%5Ccart.js ***!
+  \*********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -63,7 +63,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_cartContext__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/cartContext */ "./components/cartContext.js");
-var _jsxFileName = "C:\\_Work\\nextjs-shopping-cart\\pages\\cart.js";
+var _jsxFileName = "C:\\_Work\\nextjs-shopping-cart\\JamStack\\pages\\cart.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 // pages/cart.js
@@ -288,14 +288,14 @@ var Cart = function Cart() {
 
 /***/ }),
 
-/***/ 3:
-/*!**************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fcart&absolutePagePath=C%3A%5C_Work%5Cnextjs-shopping-cart%5Cpages%5Ccart.js ***!
-  \**************************************************************************************************************************/
+/***/ 2:
+/*!*************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fcart&absolutePagePath=C%3A%5C_Work%5Cnextjs-shopping-cart%5CJamStack%5Cpages%5Ccart.js ***!
+  \*************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fcart&absolutePagePath=C%3A%5C_Work%5Cnextjs-shopping-cart%5Cpages%5Ccart.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcart&absolutePagePath=C%3A%5C_Work%5Cnextjs-shopping-cart%5Cpages%5Ccart.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fcart&absolutePagePath=C%3A%5C_Work%5Cnextjs-shopping-cart%5CJamStack%5Cpages%5Ccart.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcart&absolutePagePath=C%3A%5C_Work%5Cnextjs-shopping-cart%5CJamStack%5Cpages%5Ccart.js!./");
 
 
 /***/ }),
@@ -311,5 +311,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=cart.js.map
